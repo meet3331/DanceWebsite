@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title Global Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Info]
+          li #[a(href="/") Contect Us]
+    Section#introsection 
+        div.large  Dancers don’t
+        div.small  need wings to fly        
+    Section#datasection 
+        div.hd Owr Sponsers
+        #names
+          #fds
+            div.ap ANKUR M. PATEL 
+            div.aps (Businessman And Motivational speaker) 
+          #sds       
+            div.ap MUKESHBHAI P. PATEL 
+            div.aps (AGM Of Mehsana Urban Bank)
+          #tds        
+            div.ap KAMLESHBAHI I. PATEL 
+            div.aps (Businessman)
+          #fds        
+            div.ap PARSHOTAMBHAI U. PATEL 
+            div.aps (Ex. Railway Inspector)        
+    footer#footersection 
+        | ©Copyright2021        
+        
+    script
+      include ../static/script.js

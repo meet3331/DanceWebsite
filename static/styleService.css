@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#con{
+    display: grid;
+    grid: auto auto auto / auto auto auto; 
+    min-height: 82vh;
+}
+#con h3{
+    font-size: 27px;
+    padding: 5px 0px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+div.one{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.two{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.three{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.four{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.five{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.six{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.seven{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px 10px 150px 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.eight{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px 10px 150px 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+div.nine{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px 10px 150px 10px;
+    border-radius: 15px;
+    background-color: wheat;
+}

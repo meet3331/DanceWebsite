@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Caveat:wght@600&family=IBM+Plex+Serif:ital,wght@1,200&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+    
+}
+.container{
+    min-height: 81vh;
+    
+}
+h1{
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+.myform{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.myInput{
+    border: 2px solid red;
+    margin: 5px 410px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(178, 219, 252);
+    outline: none;
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+.btn{
+    border: 2px solid red;
+    margin: auto auto;
+    justify-content: center;
+    padding: 4px 15px;
+    border-radius: 5px;
+    background-color: rgb(178, 219, 252);
+    cursor: pointer;
+    font-size: 17px ;
+    font-family: 'IBM Plex Serif', serif;
+}
+.btn:hover{
+    border: 2px solid red;
+    background-color: rgb(88, 88, 88);
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-family: 'IBM Plex Serif', serif;
+}

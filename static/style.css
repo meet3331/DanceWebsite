@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Caveat:wght@600&family=IBM+Plex+Serif:ital,wght@1,200&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#navbar img{
+    width: 40px;
+    height: 40px;
+    
+}
+    
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    list-style: none;
+    justify-content: center;
+    padding: 10px ;
+    
+    
+}
+
+    
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 25px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+
+}  
+#navbar li a:hover{
+    color: blue;
+    font: bold;
+    background-color: rgb(192, 191, 189);
+    border-radius: 20px;
+} 
+#introsection{
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 600px;
+    background: center / cover no-repeat url('/static/bg.jpg');
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+
+}
+#introsection div.large{
+    font-size: 60px;
+    /* padding: 125px 0px 0px 615px; */
+} 
+#introsection div.small{
+    font-size: 35px;
+    /* padding: 0px 20px 100px 650px; */
+} 
+
+#datasection {
+    background-color: #262626;
+    height: 300px;
+}
+
+#datasection div.hd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 47px;
+    color: #c8c8c8;
+    /* padding: 10px 0px 0px 644px; */
+    font-family: 'Lobster', cursive;
+}
+#names{
+    display: grid;
+    grid: auto / auto auto;
+    grid-gap: 35px;
+    /* padding: 28px 318px 10px 454px; */
+    justify-content: center;
+    font-family: 'IBM Plex Serif', serif;
+    
+    
+}
+#fds{
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    
+}
+#sds{
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    
+}
+#tds{
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    
+}
+#fds{
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    
+}
+#footersection{
+    height: 30px;
+    background: #454444;
+    /* padding: 10px 10px 10px 700px; */
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
